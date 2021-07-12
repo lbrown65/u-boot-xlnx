@@ -328,7 +328,6 @@ void *board_fdt_blob_setup(void)
 
 		debug("DTB is not passed via %p\n", fdt_blob);
 	}
-
 	if (IS_ENABLED(CONFIG_SPL_BUILD)) {
 		/*
 		 * FDT is at end of BSS unless it is in a different memory
